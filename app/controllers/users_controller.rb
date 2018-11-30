@@ -12,6 +12,8 @@ class UsersController < ApplicationController
 
     if(@user.save)
       #Handle safe
+      flash[:success] = "Welcome to the My Application!"
+      redirect_to @user
 
     else
       render 'new'
