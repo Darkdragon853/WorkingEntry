@@ -59,3 +59,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # For assert_template working
 gem 'rails-controller-testing'
+# nice dropdown Menus usw
+gem 'jquery-rails'

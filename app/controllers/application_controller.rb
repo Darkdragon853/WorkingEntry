@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  def hello
+ protect_from_forgery with: :exception
 
-  end
+  include SessionsHelper
 end
